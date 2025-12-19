@@ -15,8 +15,6 @@ jobs:
       - name: Pull in blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          # 여기에 본인의 네이버 블로그 RSS 주소를 입력하세요
           feed_list: "https://rss.blog.naver.com/deoneo.xml"
-          # home file을 README에서 "_layouts/home.html"로 바꾸는 설정
           gh_token: ${{ secrets.GITHUB_TOKEN }}
           readme_path: "_layouts/home.html"
