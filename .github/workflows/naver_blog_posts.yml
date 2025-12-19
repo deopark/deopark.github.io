@@ -19,5 +19,5 @@ jobs:
           gh_token: ${{ secrets.GITHUB_TOKEN }}
           readme_path: "_layouts/home.html"
           template: |
-            - $data
+            - $date
             - [$title]($url)
