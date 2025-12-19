@@ -20,5 +20,5 @@ jobs:
           readme_path: "_layouts/home.html"
           template: |
             - $date  
-            - [$title]($url)  
+            - [$title]($url)<br>
             
